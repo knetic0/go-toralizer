@@ -1,4 +1,4 @@
-# Toraliz - SOCKS4 Tor Proxy Client
+# Toralize - SOCKS4 Tor Proxy Client
 
 A lightweight SOCKS4 client written in Go that connects to websites through the Tor network.
 
@@ -16,17 +16,21 @@ A lightweight SOCKS4 client written in Go that connects to websites through the 
 
 ## Installation
 ```bash
-go build -o toraliz
+make build
+```
+
+```bash
+go build -o toralize toralize.go
 ```
 
 ## Usage
 ```bash
-./toraliz <host> <port>
+./toralize <host> <port>
 ```
 
 **Example:**
 ```bash
-./toraliz check.torproject.org 80
+./toralize 46.46.246.46 80
 ```
 
 ## How it works
@@ -40,7 +44,3 @@ go build -o toraliz
 ## Topics for GitHub
 
 `tor` `socks4` `proxy` `golang` `privacy` `anonymity` `networking` `socks-proxy`
-
-## License
-
-MIT
