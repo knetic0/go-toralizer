@@ -19,6 +19,8 @@ A lightweight SOCKS4 client written in Go that connects to websites through the 
 make build
 ```
 
+OR
+
 ```bash
 go build -o toralize toralize.go
 ```
